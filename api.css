@@ -1,0 +1,160 @@
+*{
+    font-family: 'M PLUS 1', sans-serif;
+}
+body {
+    margin: 25px;
+    background-color: black;
+}
+.segments{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.red{
+    margin:0;
+    background-color: #f04454;
+    height:90vh;
+    width:50vw;
+    border-radius: 0 40px 40px 0;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+.white{
+    background-color: #f8f4f4;
+    display: flex;
+    flex-direction: column;
+
+    float: left;
+    height: 90vh;
+    width:50vw;
+    border-radius:  40px 0 0 40px ;
+    padding: 10px;
+}
+.exg{
+    padding:10px 10px 5px 35px;
+}
+.main-heading{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 50px 10px 10px 30px;
+    margin-bottom: 15px;
+}
+.text{
+    width:25vw;
+    padding: 5px;
+    margin: 0 25px 0 25px;
+    font-size: 25px;
+}
+.links{
+    display: flex;
+    width:35vw;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.first>a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid #f04454;
+    width:15vw;
+    padding:10px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.second>a{
+    text-decoration: none;
+    color: #f8f4f4;
+    background-color: black;
+    border-radius: 10px;
+    width: 15vw;
+    padding:15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.options{
+    background-color:black;
+    padding:5px;
+    border-radius: 10px;
+    display: flex;
+    width:33vw;
+}
+select{
+    width:11vw;
+}
+.options>button{
+    width:11vw;
+}
+.base-cntry{
+    color:black;
+}
+#fetch-btn{
+    padding:10px;
+}
+#hover {
+    margin-top:5px;
+}
+#hover::after{
+    color: #f04454;
+    content: "1 EUR  = 83.86 INR";
+    font-size: 12px;
+    padding-left: 4px;
+}
+.number{
+    padding-top: 80px;
+    border-radius: 20px;
+}
+#numberop{
+    background-color: #f04454;
+    padding: 0.5rem;
+    font-size: 20px;
+    color: #f8f4f4;
+    /*animation : ranginia infinite 2s ease;*/
+    border: 4px solid #f8f4f4;
+    border-radius: 20px;
+    margin-left: 2vw;
+    outline: 0 !important;
+}
+#numberop::placeholder{
+    color: #f8f4f4;
+    font-size: 20px;
+    padding: 5px;
+    transition: top 2s ease-in;
+}
+#countries{
+    background-color: #f04454;
+    color: #f8f4f4;
+    padding: 0.5rem;
+    border: none;
+    width:6vw;
+    height: 10vh;
+}
+#div-output{
+    background-color: #f04454;
+    color: #f8f4f4;
+    padding-left: 2vw;
+    width: 30vw;
+}
+.conversion{
+    display: flex;
+    flex-direction: row;
+}
+#div-amounti,#div-amountc{
+    color: #f8f4f4;
+}
+#amounti,#amountc{
+    font-size: 40px;
+    padding: 10px 20px 0 150px;
+}
+#amounti-unit{
+    font-size:25px;
+    padding: 0 20px 20px 220px;
+}
+#amountc-unit{
+    font-size: 25px;
+    padding: 0px 20px 20px 170px;
+}
+
+
+
+
+
